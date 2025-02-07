@@ -19,6 +19,10 @@ nav {
     font-family: monospace;
 }
 
+a {
+    color: #a47864;
+}
+
 h3 {
     font-family: monospace;
     font-size: large;
@@ -48,7 +52,7 @@ footer {
 
 img {
     border-style: solid;
-    border-color: black;
+    border-color: antiquewhite;
     border-width: 5px;
     float: left;
     margin: 3px;
@@ -56,7 +60,7 @@ img {
 
 .links:hover {
     font-size: large;
-    background-color: #2e6f40;
+    background-color: #dcd0ff;
 }
 
 .first-quote:hover {
@@ -82,7 +86,7 @@ blockquote {
     color: #2e6f40
 }
 
-.element {
+.clear {
     clear: both;
 }
 
@@ -92,4 +96,8 @@ blockquote {
 
 .important {
     font-style: italic;
+}
+
+.project-color {
+    background-color: #2f4f4f
 }
