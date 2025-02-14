@@ -3,28 +3,33 @@
     <head>
         <meta charset="utf-8">
         <title>Tiffany Asper Web Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Poppins&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fab87b9ac1.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
     </head>
     <body>
         <header>
             <h1>Tiffany Asper</h1>
             <h2>Web Designer & Front End Web Developer</h2>
-            <nav class="links hover">
+            <nav>
                 <a href="projects.html">Projects</a>
                 <a href="#">About Me</a>
                 <a href="#">Contact</a>
                 <a href="#">Skills + Certs</a>
             </nav>
         </header>
-        <section>
-            <h2>Design Philosophy</h2>
-            <article>
-                <h3>Hi! I'm Tiffany</h3>
+        <div class="container">
+            <div class="intro">
                 <img src="images/tiffany-portrait.png" alt="Tiffany smiling at the camera with green woods in the backround." width="300" height="400">
-                <p class="important">I find joy in clean, creative, and effortless design.</p>
+            </div>
+            <article class="intro">
+                <h3>Hi! I'm Tiffany</h3>
+                <p class="important">I find joy in clean, structured, and creative design. <i class="fa-solid fa-tree"></i></p>
                 <p>I also enjoy crafting a story, the use of surprise, and playful elements. Living in the deep green woods of the Pacific Northwest, I love to draw connections from the lush beauty outside my window to the open webpage. What excites me most about web design and development is creating a fluid and intuitive experience for users that keeps them coming back.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lorem ipsum, ultricies et arcu et, commodo aliquam ipsum. Quisque venenatis lectus orci. Vivamus ut eleifend est. Etiam quam augue, convallis posuere mi eu, molestie ultricies purus. Ut euismod sed ante sed congue. Praesent augue dui, convallis viverra lorem id, scelerisque ornare neque. In vitae pharetra nulla. Cras aliquam magna vitae tincidunt consectetur. Nulla luctus finibus tristique. Curabitur maximus imperdiet sollicitudin.</p>
-                <aside class="clear">
+            </article>
+            <aside class="services">
                 <h3>Services</h3>
                     <ul>
                         <li>Website Design</li>
@@ -33,8 +38,7 @@
                         <li>Front End Web Development</li>
                     </ul>
                 </aside>
-            </article>
-        </section>
+        </div>
         <section>
             <h2>What Clients Are Saying</h2>
             <blockquote class="first-quote hover">"Tiffany exceeded our expectations!" John Smith, Company</blockquote>
@@ -42,9 +46,11 @@
             <blockquote class="third-quote hover">"Tiffany's intuitive design embodies the essence of our brand." Jack Smith, Company</blockquote>
         </section>
         <footer>
-            <p class="footer"> Tiffany Asper/ 2025/
-            <a class="links hover" href="#">Contact Me</a>
+            <p class="footer"> Tiffany Asper 2025
+                <i class="fa-brands fa-instagram links hover"></i>
+                <i class="fa-brands fa-github links hover"></i>
             </p>
+            <a href="#">Contact Me</a>
         </footer>
     </body>
 </html>

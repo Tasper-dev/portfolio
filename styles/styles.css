@@ -1,31 +1,46 @@
 h1 {
-    font-family: sans-serif;
+    font-family: "Delius Swash Caps", "Trebuchet MS", sans-serif;
+    font-size: 5rem;
     color: #ffffff;
-    background-color: #a47864;
     padding: 2rem;
     text-align: center;
 }
 
+body {
+    background-color: #a47864;
+}
+
 h2 {
-    font-family: monospace;
-    color: #2e6f40;
+    font-family: Poppins, Verdana, sans-serif;
+    font-size: 2em;
+    color: #dcd0ff;
     text-align: center;
 }
 
 nav {
     background-color: antiquewhite;
-    padding: 1rem;
+    padding: .3rem;
     text-align: center;
-    font-family: monospace;
 }
 
 a {
     color: #a47864;
 }
 
-h3 {
-    font-family: monospace;
+a:link {
+    font-family: Poppins, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
     font-size: large;
+    background-color: #dcd0ff;
+    padding: .5rem;
+}
+
+h3 {
+    font-family: Poppins, Verdana, sans-serif;
+    font-size: 1.5em;
     color: antiquewhite;
     padding: 3px;
 }
@@ -35,14 +50,13 @@ article {
 }
 
 p {
-    font-family: sans-serif;
+    font-family: Poppins, Verdana, sans-serif;
     color: #ffffff;
 }
 
-aside {
-    color: antiquewhite;
-    font-size: larger;
-    font-family: monospace;
+ul {
+    color: #2f4f4f;
+    font-family: Poppins, Verdana, sans-serif;
 
 }
 
@@ -54,36 +68,30 @@ img {
     border-style: solid;
     border-color: antiquewhite;
     border-width: 5px;
-    float: left;
-    margin: 3px;
+    margin: 5px;
 }
 
-.links:hover {
-    font-size: large;
-    background-color: #dcd0ff;
-}
 
 .first-quote:hover {
-    background-color: #a47864;
-    color: #ffffff;
+    background-color: #dcd0ff;
+    color: #2f4f4f;
     padding: 1rem;
 }
 
 .second-quote:hover {
-    background-color: #2e6f40;
-    color: #ffffff;
+    background-color: antiquewhite;
+    color: #2f4f4f;
     padding: 1rem;
 }
 
 .third-quote:hover {
     background-color: #2f4f4f;
-    color: #ffffff;
     padding: 1rem;
 }
 
 blockquote {
-    font-family: sans-serif;
-    color: #2e6f40
+    font-family: Poppins, Verdana, sans-serif;
+    color: #ffffff;
 }
 
 .clear {
@@ -100,4 +108,44 @@ blockquote {
 
 .project-color {
     background-color: #2f4f4f
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    height: 550px;
+    width: 575px;
+    background-color: #2f4f4f;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.services {
+    height: 550px;
+    width: 575px;
+    background-color: #dcd0ff;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.project-box {
+    height: 550px;
+    width: 550px;
+    padding-left: 1rem;
+    padding-left: 1rem;
+}
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
