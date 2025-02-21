@@ -24,7 +24,11 @@ nav {
 }
 
 a {
+    font-size: 1.25rem;
     color: #a47864;
+    transition-property: font-size, background-color, padding;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
 }
 
 a:link {
@@ -33,7 +37,7 @@ a:link {
 }
 
 a:hover {
-    font-size: large;
+    font-size: 2rem;
     background-color: #dcd0ff;
     padding: .5rem;
 }
@@ -76,6 +80,7 @@ img {
 blockquote {
     font-family: Poppins, Verdana, sans-serif;
     color: #2f4f4f;
+    font-size: 1.25rem;
     padding: 3px;
     text-align: center;
 }
@@ -108,8 +113,25 @@ blockquote {
 
 .intro-box {
     box-sizing: border-box;
-    width: 500px;
-    padding: 3px;
-    border: 5px solid darkgreen;
+    width: 510px;
+    padding: 1rem;
+    border: 5px solid #dcd0ff;
     margin: 3px;
+}
+
+aside li {
+    font-size: 1rem;
+    color: #2f4f4f;
+    transition-property: font-size;
+    transition-duration: 3s;
+    transition-timing-function: ease-out;
+}
+
+aside li:nth-child(2n) {
+    color: #402e26;
+}
+
+aside li:hover {
+    font-size: 2rem;
+    color: aquamarine;
 }
